@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625997559909' stop='1625997579820'>
+    <name>amazon page login</name>
+    <title>amazon page login</title>
+    <test-cases>
+        <test-case start='1625997559910' status='broken' stop='1625997579818'>
+            <name>homepage</name>
+            <title>homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps>
+                <step start='1625997559921' status='passed' stop='1625997568448'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9ddc2150-05a9-49c8-a399-3dac7396ea89-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997568452' status='passed' stop='1625997569693'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6b80d31a-e62e-4539-802c-ba033e85960e-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='416af07b-e7a9-4587-958f-d4b19f4037a6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997569717' status='passed' stop='1625997571604'>
+                    <name>POST /session/:sessionId/element/a05cb295-fcef-414e-a793-b00a2a5fbfb9/click</name>
+                    <title>POST /session/:sessionId/element/a05cb295-fcef-414e-a793-b00a2a5fbfb9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625997571605' status='passed' stop='1625997571928'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7611ae8e-c63b-47d0-af79-6e1842e57cb5-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='8a55f42b-c3a2-4aef-957d-85219742d58b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997571955' status='passed' stop='1625997572472'>
+                    <name>POST /session/:sessionId/element/ef9360bb-edbb-4915-a20b-30954b060859/value</name>
+                    <title>POST /session/:sessionId/element/ef9360bb-edbb-4915-a20b-30954b060859/value</title>
+                    <attachments>
+                        <attachment title='Request' source='083df08a-88f3-4a33-9028-1c84e2239494-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997572473' status='passed' stop='1625997572570'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='67e635ae-c27c-4f23-8a53-8d578fc8f0fb-attachment.json' type='application/json' size='163'/>
+                        <attachment title='Response' source='0ee72fcc-1ca1-4c86-ad56-209aa2db7a90-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997572575' status='passed' stop='1625997573890'>
+                    <name>POST /session/:sessionId/element/aa0470a9-99c7-4f8c-968c-a6c1d6ff0e4b/click</name>
+                    <title>POST /session/:sessionId/element/aa0470a9-99c7-4f8c-968c-a6c1d6ff0e4b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625997573891' status='passed' stop='1625997573979'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3b4dd8bb-3d57-40ee-b12f-7528affcd0be-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='a81b7f89-6bd8-4995-99eb-21d11f1d921d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997573985' status='passed' stop='1625997574103'>
+                    <name>POST /session/:sessionId/element/bec7062e-5d70-4ace-b40d-3a3c9ce8ea9b/value</name>
+                    <title>POST /session/:sessionId/element/bec7062e-5d70-4ace-b40d-3a3c9ce8ea9b/value</title>
+                    <attachments>
+                        <attachment title='Request' source='95160846-a013-48b4-89ea-498fe997f037-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997574104' status='passed' stop='1625997574150'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c44f57b9-401c-443a-a8cd-11b56564bb65-attachment.json' type='application/json' size='156'/>
+                        <attachment title='Response' source='0634caf4-cade-467d-a6a7-a5591ad3513f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997574157' status='passed' stop='1625997574398'>
+                    <name>POST /session/:sessionId/element/026f2a1c-151b-40c4-97c2-05253d794159/click</name>
+                    <title>POST /session/:sessionId/element/026f2a1c-151b-40c4-97c2-05253d794159/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625997579412' status='passed' stop='1625997579561'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d8729f0b-c481-4662-883e-a18e852d3852-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='8ad420df-4879-4c2a-8b53-56b0565cef2a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625997579569' status='passed' stop='1625997579794'>
+                    <name>POST /session/:sessionId/element/148d69c7-4133-4d8b-bae4-4c1337027e24/click</name>
+                    <title>POST /session/:sessionId/element/148d69c7-4133-4d8b-bae4-4c1337027e24/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'addValue' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'addValue' of undefined
+                    at baseUtils.toaddValue (C:\Users\Vicky\Desktop\Amazon_IO\Utilities\/baseutils.js:7:13)
+                    at Amazonlogin.Alogin (C:\Users\Vicky\Desktop\Amazon_IO\page\/login.js:65:23)
+                    at Context.&lt;anonymous> (C:\Users\Vicky\Desktop\Amazon_IO\test\/amazon.js:7:21)
+                    at Context.executeSync (C:\Users\Vicky\Desktop\Amazon_IO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Vicky\Desktop\Amazon_IO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
